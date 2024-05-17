@@ -16,9 +16,9 @@ function firstNonRepeatedChar(str) {
       return char;
     }
   }
-
+   
   // Step 4: If no non-repeated character is found, return null
   return null;
-}
-//const input = prompt("Enter a string");
+} 
+const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
